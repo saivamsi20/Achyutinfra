@@ -85,23 +85,11 @@
   top: 23%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Add this CSS to your stylesheet or in a <style> tag in your HTML <head> */
 
 /* .swiper-slide { 
   position: relative;  Required for the overlay */
-  /* background-size: cover;
+/* background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
   color: #ffffff; Sets default text color to white for better contrast
@@ -115,7 +103,7 @@
   left: 0;
   right: 0;
   bottom: 0; */
-  /* background-color: rgba(0, 0, 0, 0.5); Black overlay with 50% opacity 
+/* background-color: rgba(0, 0, 0, 0.5); Black overlay with 50% opacity 
   z-index: 1;  Places the overlay below the content 
 } */
 
@@ -124,7 +112,6 @@
   position: relative;
   z-index: 2; 
 } */
-
 
 /* --- Set the background image for each slide --- */
 /* --- IMPORTANT: Replace these paths with your actual image URLs --- */
@@ -158,28 +145,6 @@
     display: none;
 }
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .about-us-two-content {
   padding: 50px 90px 0 0;
@@ -554,7 +519,9 @@
 .contact-three-area .ihbox-style-area {
   margin-top: 30px;
 }
-.ihbox-style-area .achyut-miconheading-style-5:last-child .achyut-ihbox-style-5 {
+.ihbox-style-area
+  .achyut-miconheading-style-5:last-child
+  .achyut-ihbox-style-5 {
   border-bottom: none;
   padding-bottom: 0;
 }
@@ -599,7 +566,9 @@
   text-align: center;
   padding: 0 30px;
 }
-.achyut-element-video-scale-style-1 .achyut-heading-subheading .achyut-subtitle {
+.achyut-element-video-scale-style-1
+  .achyut-heading-subheading
+  .achyut-subtitle {
   color: var(--achyut-global-color);
   border-color: var(--achyut-global-color);
 }
@@ -764,7 +733,9 @@
 /*01 - Inner Page 
 /*----------------------------------------*/
 /** 01 - Our History **/
-.achyut-element-timeline-style-1 .achyut-timeline-wrapper .achyut-timeline-year {
+.achyut-element-timeline-style-1
+  .achyut-timeline-wrapper
+  .achyut-timeline-year {
   font-size: 18px;
   line-height: 28px;
   margin-bottom: 15px;
@@ -874,8 +845,12 @@
 .achyut-element-timeline-style-1 .achyut-timeline-wrapper .steps-content_wrap {
   opacity: 1;
 }
-.achyut-element-timeline-style-1 .achyut-element-inner .swiper-button-next:hover,
-.achyut-element-timeline-style-1 .achyut-element-inner .swiper-button-prev:hover {
+.achyut-element-timeline-style-1
+  .achyut-element-inner
+  .swiper-button-next:hover,
+.achyut-element-timeline-style-1
+  .achyut-element-inner
+  .swiper-button-prev:hover {
   background-color: var(--achyut-blackish-color);
 }
 .achyut-element-timeline-style-1
@@ -886,8 +861,10 @@
   .swiper-button-prev:hover::after {
   color: var(--achyut-white-color);
 }
-.achyut-element-timeline-style-1.Achyutfotech-element .swiper-button-next::after,
-.achyut-element-timeline-style-1.Achyutfotech-element .swiper-button-prev::after {
+.achyut-element-timeline-style-1.Achyutfotech-element
+  .swiper-button-next::after,
+.achyut-element-timeline-style-1.Achyutfotech-element
+  .swiper-button-prev::after {
   font-size: 18px;
 }
 .achyut-element-timeline-style-1
@@ -935,7 +912,9 @@
   .achyut-timeline-wrapper
   .achyut-timeline-desc
   span,
-.achyut-element-timeline-style-1 .achyut-timeline-wrapper .achyut-timeline-title {
+.achyut-element-timeline-style-1
+  .achyut-timeline-wrapper
+  .achyut-timeline-title {
   transition: all 0.4s, opacity 0.4s 0.9s, transform 0.4s 0.9s;
 }
 .achyut-element-timeline-style-1
@@ -2316,3 +2295,171 @@ textarea.form-control {
     padding-right: 0;
   }
 }
+
+/* --------------------------- */
+/* sliders */
+/* --------------------------- */
+/* Custom styles for the new slider */
+.what-we-offer-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.btn48-primary-normal {
+  background-color: #eb595f;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn48-primary-normal:hover {
+  background-color: #d94c50;
+}
+
+.swiper-container-wrapper {
+  position: relative;
+}
+
+.swiper-slide {
+  width: 236px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-image-wrapper {
+  position: relative;
+}
+
+.card-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.card-title {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.card-price-tag {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.swiper-prev,
+.swiper-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.swiper-prev {
+  left: -22px;
+}
+
+.swiper-next {
+  right: -22px;
+}
+
+.arrow-icon {
+  font-size: 1.5rem;
+  color: #41303e;
+}
+
+.swiper-button-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Add this to your existing CSS or a new file */
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.items-center {
+  align-items: center;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.md\:mr-8 {
+  margin-right: 2rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.text-gray-800 {
+  color: #2d3748;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-gray-600 {
+  color: #718096;
+}
+.whitespace-no-wrap {
+  white-space: nowrap;
+}
+.relative {
+  position: relative;
+}
+.mt-6 {
+  margin-top: 1.5rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-gray-500 {
+  color: #a0aec0;
+}
+
+/* --------------------------- */
+/* sliders */
+/* --------------------------- */

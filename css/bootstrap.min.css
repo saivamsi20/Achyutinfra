@@ -1912,7 +1912,7 @@ progress {
   background-color: #fff;
   border-color: #86b7fe;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem lch(49.89% 83.13 290.91 / 0.25);
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -4334,7 +4334,10 @@ fieldset:disabled .btn {
   float: left;
   padding-right: var(--bs-breadcrumb-item-padding-x);
   color: var(--bs-breadcrumb-divider-color);
-  content: var(--bs-breadcrumb-divider, "https://Achyut-demo.Achyutfotech.com/");
+  content: var(
+    --bs-breadcrumb-divider,
+    "https://Achyut-demo.Achyutfotech.com/"
+  );
 }
 .breadcrumb-item.active {
   color: var(--bs-breadcrumb-item-active-color);
