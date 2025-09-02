@@ -1,0 +1,251 @@
+/*!
+*	______ _	   _   _
+*	|  ____| |	 | | (_)
+*	| |__  | | __ _| |_ _  ___ ___  _ __
+*	|  __| | |/ _` | __| |/ __/ _ \| '_ \
+*	| |	| | (_| | |_| | (_| (_) | | | |
+*	|_|	|_|\__,_|\__|_|\___\___/|_| |_|
+*
+*		 https://www.flaticon.com
+*/
+
+@font-face {
+	font-family: "flaticon";
+	src: url("../fonts/flaticon3abc.woff2?6e196479991753c48f3c7822b630c0fa") format("woff2"),
+url("../fonts/flaticon3abc.woff?6e196479991753c48f3c7822b630c0fa") format("woff"),
+url("../fonts/flaticon3abc.eot?6e196479991753c48f3c7822b630c0fa#iefix") format("embedded-opentype"),
+url("../fonts/flaticon3abc.ttf?6e196479991753c48f3c7822b630c0fa") format("truetype"),
+url("../fonts/flaticon3abc.svg?6e196479991753c48f3c7822b630c0fa#flaticon") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" achyut-Achyut-icon-"]:before {
+	font-family: flaticon !important;
+	font-style: normal;
+	font-weight: normal !important;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.achyut-Achyut-icon-plus:before {
+	content: "\f101";
+}
+.achyut-Achyut-icon-tick:before {
+	content: "\f102";
+}
+.achyut-Achyut-icon-compass-1:before {
+	content: "\f103";
+}
+.achyut-Achyut-icon-drawing-tool:before {
+	content: "\f104";
+}
+.achyut-Achyut-icon-rulers:before {
+	content: "\f105";
+}
+.achyut-Achyut-icon-pdf-file-format-symbol:before {
+	content: "\f106";
+}
+.achyut-Achyut-icon-download:before {
+	content: "\f107";
+}
+.achyut-Achyut-icon-quote:before {
+	content: "\f108";
+}
+.achyut-Achyut-icon-arrow-right:before {
+	content: "\f109";
+}
+.achyut-Achyut-icon-wallet-1:before {
+	content: "\f10a";
+}
+.achyut-Achyut-icon-wallet:before {
+	content: "\f10b";
+}
+.achyut-Achyut-icon-clock:before {
+	content: "\f10c";
+}
+.achyut-Achyut-icon-calendar:before {
+	content: "\f10d";
+}
+.achyut-Achyut-icon-star-1:before {
+	content: "\f10e";
+}
+.achyut-Achyut-icon-star:before {
+	content: "\f10f";
+}
+.achyut-Achyut-icon-up-right-arrow:before {
+	content: "\f110";
+}
+.achyut-Achyut-icon-apartment:before {
+	content: "\f111";
+}
+.achyut-Achyut-icon-modern-house:before {
+	content: "\f112";
+}
+.achyut-Achyut-icon-office:before {
+	content: "\f113";
+}
+.achyut-Achyut-icon-factory:before {
+	content: "\f114";
+}
+.achyut-Achyut-icon-direct-mail:before {
+	content: "\f115";
+}
+.achyut-Achyut-icon-envelope:before {
+	content: "\f116";
+}
+.achyut-Achyut-icon-maps-and-flags:before {
+	content: "\f117";
+}
+.achyut-Achyut-icon-call:before {
+	content: "\f118";
+}
+.achyut-Achyut-icon-shopping-cart:before {
+	content: "\f119";
+}
+.achyut-Achyut-icon-loupe:before {
+	content: "\f11a";
+}
+.achyut-Achyut-icon-buildings:before {
+	content: "\f11b";
+}
+.achyut-Achyut-icon-design:before {
+	content: "\f11c";
+}
+.achyut-Achyut-icon-tripod:before {
+	content: "\f11d";
+}
+.achyut-Achyut-icon-mapping:before {
+	content: "\f11e";
+}
+.achyut-Achyut-icon-quality:before {
+	content: "\f11f";
+}
+.achyut-Achyut-icon-trophy:before {
+	content: "\f120";
+}
+.achyut-Achyut-icon-highway:before {
+	content: "\f121";
+}
+.achyut-Achyut-icon-helmet-1:before {
+	content: "\f122";
+}
+.achyut-Achyut-icon-construction-worker:before {
+	content: "\f123";
+}
+.achyut-Achyut-icon-road-roller:before {
+	content: "\f124";
+}
+.achyut-Achyut-icon-floor:before {
+	content: "\f125";
+}
+.achyut-Achyut-icon-excavator:before {
+	content: "\f126";
+}
+.achyut-Achyut-icon-architecture:before {
+	content: "\f127";
+}
+.achyut-Achyut-icon-brickwall:before {
+	content: "\f128";
+}
+.achyut-Achyut-icon-hook:before {
+	content: "\f129";
+}
+.achyut-Achyut-icon-construction-1:before {
+	content: "\f12a";
+}
+.achyut-Achyut-icon-barrier-2:before {
+	content: "\f12b";
+}
+.achyut-Achyut-icon-level-1:before {
+	content: "\f12c";
+}
+.achyut-Achyut-icon-construction:before {
+	content: "\f12d";
+}
+.achyut-Achyut-icon-wheelbarrow:before {
+	content: "\f12e";
+}
+.achyut-Achyut-icon-level:before {
+	content: "\f12f";
+}
+.achyut-Achyut-icon-measuring-tape:before {
+	content: "\f130";
+}
+.achyut-Achyut-icon-shovel:before {
+	content: "\f131";
+}
+.achyut-Achyut-icon-trowel:before {
+	content: "\f132";
+}
+.achyut-Achyut-icon-helmet:before {
+	content: "\f133";
+}
+.achyut-Achyut-icon-oil-pump:before {
+	content: "\f134";
+}
+.achyut-Achyut-icon-jackhammer:before {
+	content: "\f135";
+}
+.achyut-Achyut-icon-vest:before {
+	content: "\f136";
+}
+.achyut-Achyut-icon-driller:before {
+	content: "\f137";
+}
+.achyut-Achyut-icon-bulldozer:before {
+	content: "\f138";
+}
+.achyut-Achyut-icon-crane-2:before {
+	content: "\f139";
+}
+.achyut-Achyut-icon-crane-1:before {
+	content: "\f13a";
+}
+.achyut-Achyut-icon-crane:before {
+	content: "\f13b";
+}
+.achyut-Achyut-icon-dumper:before {
+	content: "\f13c";
+}
+.achyut-Achyut-icon-maze:before {
+	content: "\f13d";
+}
+.achyut-Achyut-icon-cone:before {
+	content: "\f13e";
+}
+.achyut-Achyut-icon-caliper:before {
+	content: "\f13f";
+}
+.achyut-Achyut-icon-compass:before {
+	content: "\f140";
+}
+.achyut-Achyut-icon-barrier-1:before {
+	content: "\f141";
+}
+.achyut-Achyut-icon-circular-saw:before {
+	content: "\f142";
+}
+.achyut-Achyut-icon-barrier:before {
+	content: "\f143";
+}
+.achyut-Achyut-icon-safety-glasses:before {
+	content: "\f144";
+}
+.achyut-Achyut-icon-hammer:before {
+	content: "\f145";
+}
+.achyut-Achyut-icon-material:before {
+	content: "\f146";
+}
+.achyut-Achyut-icon-wall:before {
+	content: "\f147";
+}
+.achyut-Achyut-icon-metre:before {
+	content: "\f148";
+}
+.achyut-Achyut-icon-tiles:before {
+	content: "\f149";
+}
+
