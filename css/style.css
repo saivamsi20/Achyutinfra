@@ -368,7 +368,7 @@
   right: -12%;
 }
 .service-two-bg {
-  background-image: url(../images/homepage-2/bg/sevice-bg.png);
+  background-image: url(../images/Index/bg/sevice-bg.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -393,7 +393,7 @@
 }
 .pricing-two-bg {
   padding: 80px 0px 100px 0px;
-  background-image: url(../images/homepage-2/bg/pricing-bg-pattern.png);
+  background-image: url(../images/Index/bg/pricing-bg-pattern.png);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
